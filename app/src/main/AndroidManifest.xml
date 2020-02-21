@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prashant.bucky.commercia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Economics_11.Economics11" />
+        <activity android:name=".Economics_12.Economics12" />
+        <activity android:name=".Business_12.Business12" />
+        <activity android:name=".Business_11.Business11" />
+        <activity android:name=".Accounts_12.Accounts12" />
+        <activity android:name=".Accounts_11.Accounts11"/>
+        <activity android:name=".CustomLightboxActivity"></activity>
+    </application>
+
+</manifest>

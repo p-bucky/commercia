@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E"
+    tools:context="com.prashant.bucky.commercia.MainActivity">
+
+
+    <Button
+        android:id="@+id/eco_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Economics 11"
+         />
+
+    <Button
+        android:id="@+id/acc_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Accounts 11" />
+    <Button
+        android:id="@+id/bus_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Business 11" />
+    <Button
+        android:id="@+id/eco_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Economics 12" />
+    <Button
+        android:id="@+id/acc_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Accounts 12" />
+    <Button
+        android:id="@+id/bus_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="#37474F"
+        android:text="Business 12" />
+</LinearLayout>
+
